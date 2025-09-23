@@ -235,9 +235,9 @@ mkdir camtest
 cd camtest
 ```
 
+Python
 
-
-```
+```Python
 # camtest.py
 # Video mit der USB-Kamera
 
@@ -275,7 +275,9 @@ python camtest.py
 
 ## Download der geo-Dateien
 
-```
+Python
+
+```Python
 #dlgeo.py
 
 import os
@@ -521,8 +523,9 @@ pip install ultralytics
 
 ## Das Training starten mit python training.py
 
+Python
 
-```
+```Python
 #pip install ultralytics
 
 # geo 
@@ -544,7 +547,9 @@ results = model.train(data=r"/home/khf/geo/geo.yolov8/data.yaml", epochs=100)  #
 
 ## Die Detection starten mit python detect.py --source 0 
 
-```
+Python
+
+```Python
 # python detect.py --source 0 
 
 import sys
@@ -587,8 +592,6 @@ while True:
 
 webcamera.release()
 cv2.destroyAllWindows()
-
-
 ```
 
 ## Ergebnis:
@@ -606,8 +609,9 @@ cv2.destroyAllWindows()
 Mit dem nachstehenden Programm erfolgt das fine tuning der best.pt, der das Ergebnis nochmals verbesssert.
 Teste unterschiedliche epochs.
 
+Python
 
-```
+```Python
 # finetuning.py
 
 from ultralytics import YOLO
@@ -659,7 +663,8 @@ Results saved to runs\detect\train2
 ### Die benötigten Dateien downloaden
 
 Python
-```
+
+```Python
 #dlhelmet.py
 
 import os
@@ -714,7 +719,7 @@ os.chdir(os.path.expanduser("~"))
 
 Python
 
-```
+```Python
 #training.py
 #pip install ultralytics
 
@@ -732,7 +737,8 @@ results = model.train(data=r"/home/khf/helmetcontrol/helmet.yolov8/data.yaml", e
 ### Detect
 
 Python
-```
+
+```Python
 # Helmet detect
 # detect.py
 
