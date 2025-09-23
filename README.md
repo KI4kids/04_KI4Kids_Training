@@ -715,7 +715,7 @@ os.chdir(os.path.expanduser("~"))
 
 
 ```
-### Training
+### Helmet control Training
 
 Python
 
@@ -734,7 +734,7 @@ model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
 results = model.train(data=r"/home/khf/helmetcontrol/helmet.yolov8/data.yaml", epochs=1)  # train the model
 
 ```
-### Detect
+### Helmet control Detect
 
 Python
 
