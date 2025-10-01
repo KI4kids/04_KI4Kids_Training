@@ -35,18 +35,18 @@ Dieses Repo beschreibt das Training (Supervised Learning) einer KI zur Erkennung
 
 ## Ablauf
 
-• Inbetriebnahme des Raspberry Pi
-• Ein Environment erstellen
-• Die KI Pakete installieren
-• Einen Datensatz erstellen
-• Die Daten kommentieren (Annotate) und den Klassen zuweisen
-• Den Datensatz splitten (Train - Valid - Test)
-• Den Datensatz trainieren (KI Model)
-• Den Datensatz prüfen und das Training starten
-• Die trainierte Bibliothek testen
-• Das Ergebnis mit fine tuning verbessern
-• Trainings-Beispiele
-Ein Trainingsbeispiel in google colab erstellen
+- Inbetriebnahme des Raspberry Pi
+- Ein Environment erstellen
+- Die KI Pakete installieren
+- Einen Datensatz erstellen
+- Die Daten kommentieren (Annotate) und den Klassen zuweisen
+- Den Datensatz splitten (Train - Valid - Test)
+- Den Datensatz trainieren (KI Model)
+- Den Datensatz prüfen und das Training starten
+- Die trainierte Bibliothek testen
+- Das Ergebnis mit fine tuning verbessern
+- Trainings-Beispiele
+- Ein Trainingsbeispiel in google colab erstellen
 
 
 
