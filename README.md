@@ -35,26 +35,19 @@ Dieses Repo beschreibt das Training (Supervised Learning) einer KI zur Erkennung
 
 ## Ablauf
 
-- Den Raspi vorbereiten
-- Ein Environment erstellen
-- Die KI Pakete OpenCV und Ultralytics installieren
-- Daten sammeln (z.B. Fotos)
-- Roboflow login 
-- Ein Projekt erstellen
-- Einen Datensatz erstellen
-- Die Daten importieren
-- Die Daten kommentieren (Annotate) und den Klassen zuweisen
-- Den Datensatz splitten (Train - Valid - Test -> z.B. 70-20-10)
-- Den Datensatz trainieren (*.pt Model)
-- Den Datensatz prüfen
-- Den Datensatz downloaden
-- Den Datensatz in das Arbeitsverzeichnis kopieren und Dateipfade anpassen
-- Die Epochs anpassen und training.py starten 
-- Die trainierte Bibliothek in das Arbeitsverzeichnis kopieren
-- Mit detect.py die Bibliothek testen
-- Das Ergebnis mit fine tuning verbessern
-- Ein Trainings-Beispiel Helmet control
-- Ein Trainingsbeispiel in google colab
+• Inbetriebnahme des Raspberry Pi
+• Ein Environment erstellen
+• Die KI Pakete installieren
+• Einen Datensatz erstellen
+• Die Daten kommentieren (Annotate) und den Klassen zuweisen
+• Den Datensatz splitten (Train - Valid - Test)
+• Den Datensatz trainieren (KI Model)
+• Den Datensatz prüfen und das Training starten
+• Die trainierte Bibliothek testen
+• Das Ergebnis mit fine tuning verbessern
+• Trainings-Beispiele
+Ein Trainingsbeispiel in google colab erstellen
+
 
 
 ---
