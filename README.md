@@ -340,10 +340,7 @@ In Roboflow kannst du Bilder hochladen, labeln, trainieren und exportieren.
 
 ### 1. Upload Data
 
-• Lade deine Bilder in Roboflow hoch:
-
-• [geo_pic](https://github.com/frankyhub/04_KI4Kids_Training/blob/main/geo_pic/geo_pic.zip)
-
+• Lade deine Bilder in Roboflow hoch.
 
 
 ![Bild](pic/roboupload.png)
@@ -524,11 +521,11 @@ Python
 from ultralytics import YOLO
 
 # Load a model
-model = YOLO("yolov8n.yaml")  # build a new model from scratch
-model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
+model = YOLO("yolov8n.yaml")  
+model = YOLO("yolov8n.pt")  
 
-# Use the model
-results = model.train(data=r"/home/khf/geo/geo.yolov8/data.yaml", epochs=100)  # train the model
+
+results = model.train(data=r"/home/khf/geo/geo.yolov8/data.yaml", epochs=100)  
 
 ```
 
@@ -715,13 +712,11 @@ Python
 
 from ultralytics import YOLO
 
-# Load a model
-model = YOLO("yolov8n.yaml")  # build a new model from scratch
-model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
+model = YOLO("yolov8n.yaml")  
+model = YOLO("yolov8n.pt") 
 
-# Use the model
-#results = model.train(data=r"D:\Helmet-Detection-using-YOLOv8-main\Bike Helmet Detection.v2-more-preprocessing-augmentation.yolov8\data.yaml", epochs=100)  # train the model
-results = model.train(data=r"/home/khf/helmetcontrol/helmet.yolov8/data.yaml", epochs=1)  # train the model
+#results = model.train(data=r"D:\Helmet-Detection-using-YOLOv8-main\Bike Helmet Detection.v2-more-preprocessing-augmentation.yolov8\data.yaml", epochs=100) 
+results = model.train(data=r"/home/khf/helmetcontrol/helmet.yolov8/data.yaml", epochs=1)  
 
 ```
 ### Helmet control Detect
